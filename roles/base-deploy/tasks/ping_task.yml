@@ -1,0 +1,4 @@
+---
+  - name: Gerar ping
+    template:
+      src: ../templates/ping.j2

@@ -1,0 +1,6 @@
+---
+- remote_user: {{user}}
+  tasks:
+    - name: testar {{app_name}} e especifica {{msg}}
+      ping:
+      remote_user: {{user}}

@@ -1,0 +1,7 @@
+---
+- hosts: jose
+  vars:
+    msg: algum host1
+    user: root
+  roles:
+    - { role: base-deploy }
